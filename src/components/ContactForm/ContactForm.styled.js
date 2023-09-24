@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Form = styled('form')(() => ({
+  width: '50%',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'flex-start',
@@ -13,8 +14,8 @@ export const Input = styled('input')(() => ({
   border: '1px solid #ccc',
   borderRadius: '4px',
   padding: '12px',
-  margin: '8px 0',
-  width: '80%',
+  margin: '8px 12px',
+  width: '50%',
   '&:focus': {
     borderColor: '#007BFF',
   },
